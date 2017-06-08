@@ -1,0 +1,17 @@
+¿Qué entiende como "commit"?
+Es como guardar los nuevos cambios que estamos realizando en nuestro trabajo sin subirlo al repositorio publico, 
+sino solamente de una manera local.
+
+¿Qué entiende como "merge"?
+es cuando se trabaja en equipos de trabajo y se necesita unir las partes que se estan realizando, para generar un solo 
+proyecto.
+
+¿Cuál es la diferencia entre "Pull" y "Push"?
+que el pull es bajar datos del repositorio global.
+mientras que el push es subir los cambios realizados al repositorio global.
+
+
+¿Cómo utilizar ramas ("branches") en la aplicación?
+en la aplicacion como se esta realizando de manera individual no tenemos necesidad de crear mas que el branch principal
+dond estara cargado todo lo necesario para el trabajo, pero se utiliza para trabajo colaborativo para que todos puedan
+estar agregando versiones y modificaciones a los proyectos.
