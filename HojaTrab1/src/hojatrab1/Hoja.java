@@ -254,7 +254,7 @@ public class Hoja extends javax.swing.JFrame {
        
         
        String completa = invertido  +invertido2;
-       JOptionPane.showMessageDialog(null, invertido +" "+ invertido2);
+       JOptionPane.showMessageDialog(null, invertido +" "+ invertido2 +" 201404215");
        result.setText(completa);
     
     
