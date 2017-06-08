@@ -168,7 +168,7 @@ public class Hoja extends javax.swing.JFrame {
     }//GEN-LAST:event_opera3ActionPerformed
 
     private void opera4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_opera4ActionPerformed
-        //reglade3();
+        reglade3();
     }//GEN-LAST:event_opera4ActionPerformed
 
     //Metodos de las operaciones
@@ -258,6 +258,18 @@ public class Hoja extends javax.swing.JFrame {
        result.setText(completa);
     
     
+    }
+    
+        //operacion4
+    public void reglade3(){
+     int a,x,b,y;
+     a= Integer.parseInt(input1.getText());
+     x=Integer.parseInt(input2.getText());
+     b=Integer.parseInt(input3.getText());
+     y = ((b*x)/a);
+     
+     result.setText(String.valueOf(y));
+        System.out.println(y);
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
