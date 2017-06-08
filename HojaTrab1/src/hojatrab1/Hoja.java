@@ -158,7 +158,7 @@ public class Hoja extends javax.swing.JFrame {
 
     private void opera2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_opera2ActionPerformed
         // TODO add your handling code here:
-        //verificarLetra();
+        verificarLetra();
 
     }//GEN-LAST:event_opera2ActionPerformed
 
@@ -221,6 +221,21 @@ public class Hoja extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "ingrese datos numericos o no deje los campos vacios");
         }
 
+    }
+        
+        
+        //Operacion 2
+            
+    //Operacion2
+    public boolean verificarLetra(){
+    String palabraV=input1.getText();
+    if(palabraV.contains("a")&& palabraV.contains("e") && palabraV.contains("i") && palabraV.contains("o") && palabraV.contains("u")){
+        result.setText("Cumple ");
+        return true;
+    }else{
+    result.setText("No cumple");
+    return false;
+    }
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
