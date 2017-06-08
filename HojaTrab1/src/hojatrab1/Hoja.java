@@ -164,7 +164,7 @@ public class Hoja extends javax.swing.JFrame {
 
     private void opera3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_opera3ActionPerformed
         // TODO add your handling code here:
-       // invertir();
+        invertir();
     }//GEN-LAST:event_opera3ActionPerformed
 
     private void opera4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_opera4ActionPerformed
@@ -236,6 +236,28 @@ public class Hoja extends javax.swing.JFrame {
     result.setText("No cumple");
     return false;
     }
+    }
+    
+        //operacion3
+    public void invertir(){
+    String nombre= input1.getText();
+    String apellido = input2.getText();
+    String invertido ="";
+    String invertido2 ="";
+            
+            
+    for(int i = nombre.length()-1; i >=0; i --)
+      invertido += nombre.charAt(i);
+   
+       for(int j = apellido.length()-1; j >=0; j --)
+      invertido += apellido.charAt(j);
+       
+        
+       String completa = invertido  +invertido2;
+       JOptionPane.showMessageDialog(null, invertido +" "+ invertido2);
+       result.setText(completa);
+    
+    
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
